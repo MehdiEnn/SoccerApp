@@ -26,11 +26,11 @@ namespace SoccerApp
             Random random = new Random();
             team.playerlist = team.playerlist.OrderBy(e => random.Next()).ToList();
             
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 5; i++)
             {
                 team1.Add(team.playerlist[i]);
             }
-            for (int i = 3; i < 6; i++)
+            for (int i = 5; i < 10; i++)
             {
                 team2.Add(team.playerlist[i]);
             }
