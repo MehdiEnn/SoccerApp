@@ -18,7 +18,7 @@ namespace SoccerApp
         {
             this.PlayerList = playerlist;
 
-            while (Playernumbers < 6)
+            while (Playernumbers < 10)
             {
                 Player player = new Player();
                 Console.Write("Player " + Convert.ToInt16(Playernumbers+ 1) + " firstname : ");
